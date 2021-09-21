@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     left: 30,
   },
   container: {
-    backgroundColor: colors.black,
+    backgroundColor: "#E5E5E5",
     flex: 1,
   },
   deleteIcon: {

@@ -22,6 +22,7 @@ function WelcomeScreen(props) {
 const styles = StyleSheet.create({
   background: {
     flex: 1,
+    color: "#fc5c65",
     justifyContent: "flex-end",
     alignItems: "center",
   },
