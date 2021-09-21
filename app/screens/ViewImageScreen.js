@@ -23,9 +23,6 @@ function ViewImageScreen(props) {
 
 const styles = StyleSheet.create({
   closeIcon: {
-    width: 50,
-    height: 50,
-    backgroundColor: colors.primary,
     position: "absolute",
     top: 40,
     left: 30,
@@ -35,9 +32,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   deleteIcon: {
-    width: 50,
-    height: 50,
-    backgroundColor: colors.secondary,
     position: "absolute",
     top: 40,
     right: 30,
