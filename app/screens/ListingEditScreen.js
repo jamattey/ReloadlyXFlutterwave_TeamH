@@ -3,16 +3,16 @@ import { StyleSheet } from "react-native";
 import * as Yup from "yup";
 
 import {
-  AppForm as Form,
-  AppFormField as FormField,
-  AppFormPicker as Picker,
+  Form as Form,
+  FormField as FormField,
+  FormPicker as Picker,
   SubmitButton,
 } from "../components/forms";
 import Screen from "../components/Screen";
 
 const validationSchema = Yup.object().shape({
   title: Yup.string().required().min(1).label("Title"),
-  price: Yup.number().required().min(1).max(10000).label("Price"),
+  //price: Yup.number().required().min(1).max(10000).label("Price"),
   description: Yup.string().label("Description"),
   category: Yup.object().required().nullable().label("Category"),
 });
@@ -29,7 +29,7 @@ function ListingEditScreen() {
       <Form
         initialValues={{
           title: "",
-          price: "",
+          //price: "",
           description: "",
           category: null,
         }}
@@ -37,12 +37,12 @@ function ListingEditScreen() {
         validationSchema={validationSchema}
       >
         <FormField maxLength={255} name="title" placeholder="Title" />
-        <FormField
+        {/* <FormField
           keyboardType="numeric"
           maxLength={8}
           name="price"
           placeholder="Price"
-        />
+        /> */}
         <Picker items={categories} name="category" placeholder="Category" />
         <FormField
           maxLength={255}
