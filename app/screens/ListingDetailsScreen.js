@@ -1,16 +1,17 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native";
-import AppText from "../components/AppText";
+import { View, StyleSheet } from "react-native";
+import { Image } from "react-native-expo-image-cache";
 
-import ListItem from "../components/ListItem";
 import colors from "../config/colors";
+import ListItem from "../components/lists/ListItem";
+import Text from "../components/Text";
 
 function ListingDetailsScreen(props) {
   return (
     <View>
       <Image style={styles.image} source={require("../assets/macbook.jpg")} />
       <View style={styles.detailsContainer}>
-        <AppText style={styles.title}>Spoilt MacBooks</AppText>
+        <Text style={styles.title}>Spoilt MacBooks</Text>
         <View style={styles.userContainer}>
           <ListItem
             image={require("../assets/gb.jpg")}

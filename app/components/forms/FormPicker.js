@@ -4,7 +4,7 @@ import { useFormikContext } from "formik";
 import Picker from "../Picker";
 import ErrorMessage from "./ErrorMessage";
 
-function AppFormPicker({
+function FormPicker({
   items,
   name,
   numberOfColumns,
@@ -30,4 +30,4 @@ function AppFormPicker({
   );
 }
 
-export default AppFormPicker;
+export default FormPicker;

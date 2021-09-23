@@ -18,9 +18,9 @@ const validationSchema = Yup.object().shape({
 });
 
 const categories = [
-  { label: "Furniture", value: 1 },
-  { label: "Clothing", value: 2 },
-  { label: "Camera", value: 3 },
+  { label: "Plastic", value: 1 },
+  { label: "Paper", value: 2 },
+  { label: "Metal", value: 3 },
 ];
 
 function ListingEditScreen() {

@@ -1,14 +1,9 @@
 import React from "react";
-import {
-  View,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-  TouchableHighlight,
-} from "react-native";
-import AppText from "../AppText";
+import { View, StyleSheet, Image, TouchableHighlight } from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import Swipeable from "react-native-gesture-handler/Swipeable";
 
+import Text from "../Text";
 import colors from "../../config/colors";
 
 function ListItem({
@@ -26,8 +21,8 @@ function ListItem({
           {IconComponent}
           {image && <Image style={styles.image} source={image} />}
           <View style={styles.detailsContainer}>
-            <AppText style={styles.title}>{title}</AppText>
-            {subTitle && <AppText style={styles.subTitle}>{subTitle}</AppText>}
+            <Text style={styles.title}>{title}</Text>
+            {subTitle && <Text style={styles.subTitle}>{subTitle}</Text>}
           </View>
         </View>
       </TouchableHighlight>
