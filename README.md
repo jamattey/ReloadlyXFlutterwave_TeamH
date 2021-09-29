@@ -1,7 +1,10 @@
-"# TEAM-H" 
+##flutterwaveXreloadlyHackathon  
+
+#reloadly
+#flutterwave
 
 
-#flutterwaveXreloadlyHackathon
+##To Run project
 
 #npm install 
 
