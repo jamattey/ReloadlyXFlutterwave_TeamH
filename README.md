@@ -1,13 +1,16 @@
-##flutterwaveXreloadlyHackathon  
+flutterwaveXreloadlyHackathon TEAM H
 
 #reloadly
 #flutterwave
 
+### Waste Management App: Falley (WIP)
 
-##To Run project
+React Native and Expo
 
-#npm install 
-
-#expo start
-
-#click on run web or configure for ios or android
+### 1. Clone repo
+```
+$ git clone git@github.com:Adeniyikayodee/ReloadlyXFlutterwave_TeamH.git
+$ cd ReloadlyXFlutterwave_TeamH
+$ npm install
+$ expo start
+```
