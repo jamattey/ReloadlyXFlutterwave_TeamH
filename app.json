@@ -4,9 +4,9 @@
     "slug": "teamh-flutterwavexreloadlyhackathon",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.jpg",
+    "icon": "./app/assets/icon.jpg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "foregroundImage": "./app/assets/adaptive-icon.jpg",
         "backgroundColor": "#FFFFFF"
       }
     },
