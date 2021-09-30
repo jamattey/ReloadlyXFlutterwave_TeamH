@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "TH",
-    "slug": "TH",
+    "name": "TeamH-flutterwaveXreloadlyHackathon",
+    "slug": "teamh-flutterwavexreloadlyhackathon",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.jpg",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./app/assets/Text"
-    }
+      "favicon": "./app/assets/favicon.jpg"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/Adeniyikayodee/ReloadlyXFlutterwave_TeamH"
   }
 }

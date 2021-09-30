@@ -13,9 +13,10 @@ const validationSchema = Yup.object().shape({
   BankName: Yup.string().required().label("Bank Name"),
   AccountNumber: Yup.string().required().min(1).max(1000000000).label("Account Number"),
   AccountType: Yup.string().required().min(4).label("Account Type"),
+  PhoneNumber: Yup.string().required().min(1).label("Phone Number"),
 });
 
-function BankDetails() {
+function PaymentScreen() {
   return (
     <Screen style={styles.container}>
       <Form
@@ -43,6 +44,12 @@ function BankDetails() {
           name="Account Type"
           placeholder="Account Type"
         />
+        <FormField
+          autoCorrect={false}
+          icon="phone"
+          name="Phone Number"
+          placeholder="Phone Number"
+        />
         <SubmitButton title="Submit Payment Details" />
       </Form>
     </Screen>
@@ -55,4 +62,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BankDetails;
+export default PaymentScreen;
